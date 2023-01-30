@@ -105,7 +105,7 @@ class SystemInfo():
         hwid = get_hwid()
 
         return (
-            "<:CPU:1004131852208066701> System",
+            ":computer: System",
             f"```CPU: {cpu}\nGPU: {gpu}\nRAM: {ram}\nHWID: {hwid}```",
             False
         )
