@@ -14,7 +14,7 @@ if %errorlevel% == 0 (
 ::fixed by K.Dot cause dif
 git --version 2>&1>nul
 if %errorlevel% == 9009 (
-    echo git is either not installed or not added to path! You can install it here https://git-scm.com/download/win
+    echo Git is either not installed or not added to path! You can install it here https://git-scm.com/download/win
     pause
     exit
 )
